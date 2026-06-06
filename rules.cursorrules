@@ -1,0 +1,9 @@
+# Tech Stack
+- Frontend: Next.js (React) with Tailwind CSS for rapid, responsive styling.
+- Backend: PHP API endpoints communicating with XAMPP MySQL.
+
+# Architecture & Rules
+- Keep frontend components modular and mobile-first (students use phones!).
+- All PHP backend endpoints must return clean JSON responses (`header('Content-Type: application/json')`).
+- Use secure password hashing (`password_hash` in PHP).
+- Organize the project clearly: `/frontend` for Next.js and `/backend` for PHP scripts.
